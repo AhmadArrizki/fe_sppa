@@ -1,0 +1,51 @@
+.dashboard-container {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+}
+
+.rectangle {
+  background-color: #0094FF;
+  width: 300px;
+  height: 630px;
+  padding: 20px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle-button {
+  background-color: #0094FF;
+  color: white;
+  border: 2px solid #0094FF;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.rectangle-button:hover {
+  background-color: #007ACC;
+  color: white;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: white;
+}
